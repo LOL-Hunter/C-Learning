@@ -1,10 +1,11 @@
 # C-Programmieren
  ## Daten-Typen
  Nummerische-Datentypen
-  * int8_t  (Größe: 1Byte) (0 - 255)
-  * uint8_t (Größe: 1Byte) (-128 - 127)
-  * int16_t  (Größe: 2Byte) (0 - 65535)
-  * uint16_t (Größe: 2Byte) (-32768 - 32767)
+  * int8_t  (Größe: 1Byte) (-128 - 127)
+  * uint8_t (Größe: 1Byte) (0 - 255)
+  * int16_t  (Größe: 2Byte) (-32768 - 32767)
+  * uint16_t (Größe: 2Byte) (0 - 65535)
+  ...
   ---
  ## PORTs
   * PORT0 (Schalter)
@@ -17,11 +18,11 @@
   * lcd_init();
   * adc_init();
   * byte_init(PORTx, IN/OUT);
-  * bit_init(PORTx, 0-8, IN/OUT) ;
+  * bit_init(PORTx, 0-7, IN/OUT) ;
   ---
  ## PIN IN/OUT
   Bit I/O (Ein pin von PORT)
-  * bit_write(PORTx, 0-8, value);
+  * bit_write(PORTx, 0-7, value);
   * uint8_t value = bit_read(PORTx, 0-8);
   ---
   Byte I/O (Gesamter PORT)
