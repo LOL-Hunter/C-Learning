@@ -1,5 +1,4 @@
 # C-Programmieren
- +{0b1001, 0b1010, 0b0110, 0b0101}; (Schrittmotor)
  ## Daten-Typen
  Nummerische-Datentypen
   * int8_t  (Größe: 1Byte) (0 - 255)
