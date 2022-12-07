@@ -23,11 +23,11 @@
  ## PIN IN/OUT
   Bit I/O (Ein pin von PORT)
   * bit_write(PORTx, 0-7, value);
-  * uint8_t value = bit_read(PORTx, 0-8);
+  * uint8_t value = bit_read(PORTx, 0-7);
   ---
   Byte I/O (Gesamter PORT)
   * byte_write(PORTx, value);
-  * uint8_t value = byte_read(PORTx, value);
+  * uint8_t value = byte_read(PORTx);
  ---
  ## LCD-Screen
   Steuerung des LCD-Display's
